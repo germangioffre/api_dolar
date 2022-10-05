@@ -26,6 +26,10 @@ _Todos los endpoints devuelven solo 2 valores, "d" que sería la fecha, y "v" qu
 ```
 
 
+### El token se debe actualizar 1 vez por año 
+### Token: 100 usos por dia como maximo.
+
+
 _La informacion es obtenida del sitio BCRA, por lo cual tambien se puede obtener mucha mas informacion._
 
 #### Flujo de trabajo

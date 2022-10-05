@@ -1,5 +1,5 @@
 import express from 'express'
-import helmet from 'helmet'
+import helmet from 'helmet'  // para que sirve esta libreria ??? 
 import router from './routes/router.js'
 import pkg from 'body-parser'
 const {urlencoded, json} = pkg;
@@ -9,7 +9,7 @@ const app = express();
 /* Arreglar */
 app.get('/', async (req, res) => {
     try {
-        res.send("API para obtener las cotizaciones de los distintos tipos de dolar y riesgo pais. La documentacion la podes encontrar en https://github.com/Castrogiovanni20/api-dolar-argentina")
+        res.send("API para ver la cotizacion del dolar de Disbyte. Ingrese en la URL el endpoint que desea consultar")
     } catch(e) {
         console.log(e)
         res.send(500);

@@ -22,6 +22,7 @@ class dolarSiService {
             console.log(e)
         }
     }
+///////////////////reacomodar igual q el controller
 
     getInfoDolarBlueSobreOficial = async (req, res) => {
         try {
