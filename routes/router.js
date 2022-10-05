@@ -1,10 +1,10 @@
 import express from 'express'
 const router = express.Router();
 
-import util from '../../../util/util.js';
+import util from '../util/util.js';
 const utilInstance = new util()
 
-import dolarSiService from '../../../services/dolarSiService.js'
+import dolarSiService from '../services/dolarSiService.js'
 const dolarSiServiceInstance = new dolarSiService()
 
 import dolarController from '../controller/dolarController.js'

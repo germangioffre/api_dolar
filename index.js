@@ -6,6 +6,7 @@ const {urlencoded, json} = pkg;
 const PORT = process.env.PORT || 7070
 const app = express();
 /* Proyecto listo, se añadió el token desde el archivo .ENV */
+/* Arreglar */
 app.get('/', async (req, res) => {
     try {
         res.send("API para obtener las cotizaciones de los distintos tipos de dolar y riesgo pais. La documentacion la podes encontrar en https://github.com/Castrogiovanni20/api-dolar-argentina")
